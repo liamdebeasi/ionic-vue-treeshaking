@@ -1,7 +1,7 @@
 {
-  "name": "vue-blank",
+  "name": "vue-cmp",
   "integrations": {
     "capacitor": {}
   },
-  "type": "vue"
+  "type": "vue-vite"
 }

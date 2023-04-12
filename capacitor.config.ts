@@ -2,7 +2,7 @@ import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
   appId: 'io.ionic.starter',
-  appName: 'vue-blank',
+  appName: 'vue-cmp',
   webDir: 'dist',
   bundledWebRuntime: false
 };

@@ -1,15 +1,9 @@
 <template>
-  <ion-badge>123</ion-badge>
+  <ion-app>
+    <ion-router-outlet />
+  </ion-app>
 </template>
 
-<script lang="ts">
-import { IonBadge } from '@ionic/vue';
-import { defineComponent } from 'vue';
-
-export default defineComponent({
-  name: 'App',
-  components: {
-    IonBadge,
-  }
-});
+<script setup lang="ts">
+import { IonApp, IonRouterOutlet } from '@ionic/vue';
 </script>
